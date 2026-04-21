@@ -1,0 +1,10 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+tokio.workspace = true
+mdns-sd.workspace = true
+anyhow.workspace = true
+reqwest = { version = "0.13", default-features = false }
